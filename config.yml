@@ -1,0 +1,11 @@
+discord: # Discordの設定
+  token: "" # DiscordのBotToken
+  users: [] # コマンド実行が許可されるユーザーのID(Op保有者等を登録可能)
+
+minecraft: # Minecraftサーバーの設定
+  ip: "127.0.0.1" # RconサーバーのIP
+  port: 25565 # Rconサーバーのポート
+  password: "RconPassword" # Rconサーバーのパスワード
+  plugins: "C:\\Server\\plugins" # pluginsフォルダまでのフルパス
+  start: "C:\\Server\\start.ps1" # 起動ps1ファイルまでのフルパス
+  stop: "stop" # サーバーの停止コマンド
